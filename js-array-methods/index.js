@@ -16,8 +16,12 @@
 
 /** forEach */
 
-const arr = [1, 2, 3, 4, 5];
+// const arr = [1, 2, 3, 4, 5];
 
-arr.forEach((data) => {
-  return console.log((data += 1));
-});
+// arr.forEach((data) => {
+//   return console.log((data += 1));
+// });
+
+/** map */
+
+console.log(["1", "2", "3", "4"].map(parseInt));
